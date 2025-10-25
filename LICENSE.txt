@@ -1,0 +1,26 @@
+# What Characterizes a Software Leader? Identifying Leadership Practices from Practitioners’ Social Media
+
+## Replication Package
+
+This repository contains the replication package for the paper titled "What Characterizes a Software Leader? Identifying Leadership Practices from Practitioners’ Social Media".
+
+### Repository Contents
+
+The package contains the following artifacts:
+
+1.  **`What Characterizes a Software Leader.xlsx`**: The master spreadsheet containing all raw and analyzed data from the study.
+2.  **`/images/`**: A folder containing the high-resolution images of the statistical analyses and the conceptual map.
+3.  **`/json-data/`**: A folder containing the original `JSON` files extracted from the Dev Community API during data collection.
+
+### Spreadsheet Description (`What Characterizes a Software Leader.xlsx`)
+
+The main spreadsheet is organized into the following sheets to facilitate auditing and replication:
+
+* **`Articles_Status`**: A list of all articles (1,815) retrieved from the initial mining, with their classification and status (included or excluded).
+* **`Extracts_Results`**: Contains the 116 selected articles, author demographic data, and the text excerpts (quotes) extracted by each researcher.
+* **`Practices`**: The open coding process, mapping raw text excerpts to the initial codes.
+* **`Clustering` / `Clustering_No_Repetition`**: The normalization and clustering process of the initial codes into the 104 final practices (71 recommended and 32 avoidable).
+* **`Characterization_Articles`**: Characterization data for the 116 final articles.
+* **`Characterization_Author`**: Characterization data for the 90 distinct authors.
+* **`Calibrate_Final_KAPPA`**: Raw data from the calibration round used for the Cohen's Kappa calculation.
+* **Tag Sheets (`#leadership`, `#techlead`, etc.)**: Sheets containing the raw data for each tag extracted from the API (converted JSON).
